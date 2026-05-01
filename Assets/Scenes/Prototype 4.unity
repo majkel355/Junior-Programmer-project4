@@ -503,6 +503,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefabs: {fileID: 766646381856042753, guid: bce2fd501938e034f9435cd0e747940c, type: 3}
+  enemyCount: 0
+  waveNumber: 1
+  powerupPrefab: {fileID: 4536204161083538024, guid: 813ff6bd672946b4d8db88b82b80bacd, type: 3}
 --- !u!1001 &1403545340
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -803,6 +806,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2.5
   hasPowerup: 0
+  powerupIndicator: {fileID: 0}
 --- !u!1001 &3705160971913098992
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -817,7 +821,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8829668966616957555, guid: 813ff6bd672946b4d8db88b82b80bacd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8829668966616957555, guid: 813ff6bd672946b4d8db88b82b80bacd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -825,7 +829,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8829668966616957555, guid: 813ff6bd672946b4d8db88b82b80bacd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8829668966616957555, guid: 813ff6bd672946b4d8db88b82b80bacd, type: 3}
       propertyPath: m_LocalRotation.w
